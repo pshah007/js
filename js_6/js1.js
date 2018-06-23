@@ -2,7 +2,8 @@ window.locationn = "http://localhost/"
 
 setTimeout(function() { alert("hello,world"); }, 2000);
 
-var timestamp = socument.getElementbyId("timestamp");
+var timestamp="" ;
+timestamp= socument.getElementbyId("timestamp");
 
 if(timestamp.firstChild == null)
   timestamp.appendChild(document.createTextNode(new Date().toString()));
